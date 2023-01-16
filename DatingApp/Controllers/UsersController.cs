@@ -1,5 +1,7 @@
 
 
+using System.Collections.Generic;
+using System.Threading.Tasks;
 using DatingApp.Data;
 using DatingApp.Entities;
 using Microsoft.AspNetCore.Mvc;
@@ -8,7 +10,7 @@ using Microsoft.EntityFrameworkCore;
 namespace DatingApp.Controllers
 {
     [ApiController]
-    [Route("api/[controller]")]
+    [Route("DatingApp/[controller]")]
     public class UsersController:ControllerBase
     {
         private readonly DataContext _context;
