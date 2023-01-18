@@ -10,6 +10,7 @@
   },
   "profiles": {
     "DatingApp": {
+      "hotReloadEnabled":false,
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": false,
